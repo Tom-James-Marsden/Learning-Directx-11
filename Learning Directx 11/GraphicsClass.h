@@ -3,11 +3,11 @@
 #ifndef _GRAPHICSLASS_H_
 #define _GRAPHICSLASS_H_
 
-//INCLUDES
-#include <Windows.h>
+//MY CLASS INCLUDES
+#include "D3DClass.h"
 
 //GLOBALS
-const bool FULL_SCREEN = true;
+const bool FULL_SCREEN = false;
 const bool VSYNC_ENABLED = true;
 const float SCREEN_DEPTH = 1000.0f;
 const float SCREEN_NEAR = 0.1f;
@@ -27,6 +27,8 @@ private:
 	bool Render();
 
 private:
+
+	D3DClass* m_Direct3D;
 
 };
 
