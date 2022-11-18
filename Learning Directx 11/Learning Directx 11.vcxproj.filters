@@ -33,6 +33,9 @@
     <ClCompile Include="D3DClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Colorshaderclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SystemClass.h">
@@ -47,13 +50,16 @@
     <ClInclude Include="D3DClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Colorshaderclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="colorVS.hlsl">
+    <None Include="colorPS.hlsl">
       <Filter>Shader Files</Filter>
-    </FxCompile>
-    <FxCompile Include="colorPS.hlsl">
+    </None>
+    <None Include="colorVS.hlsl">
       <Filter>Shader Files</Filter>
-    </FxCompile>
+    </None>
   </ItemGroup>
 </Project>
