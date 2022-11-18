@@ -1,5 +1,4 @@
 //GLOBALS
-
 cbuffer MatrixBuffer
 {
 	matrix worldMatrix;

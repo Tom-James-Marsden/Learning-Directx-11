@@ -1,6 +1,3 @@
-// Filename: color.ps
-
-
 // TYPEDEFS //
 struct PixelInputType
 {
