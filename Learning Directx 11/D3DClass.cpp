@@ -11,6 +11,10 @@ D3DClass::D3DClass()
 	m_rasterState = 0;
 }
 
+D3DClass::D3DClass(const D3DClass&)
+{
+}
+
 D3DClass::~D3DClass()
 {
 }
@@ -398,7 +402,7 @@ void D3DClass::Shutdown()
 	return;
 }
 
-void D3DClass::BegineScene(float red, float blue, float green, float alpha)
+void D3DClass::BegineScene(float red, float green, float blue, float alpha)
 {
 	float color[4];
 
