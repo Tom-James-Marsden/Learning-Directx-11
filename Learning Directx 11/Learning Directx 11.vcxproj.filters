@@ -33,7 +33,7 @@
     <ClCompile Include="D3DClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Colorshaderclass.cpp">
+    <ClCompile Include="TextureShaderclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ModelClass.cpp">
@@ -56,7 +56,7 @@
     <ClInclude Include="D3DClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Colorshaderclass.h">
+    <ClInclude Include="TextureShaderclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ModelClass.h">
@@ -78,5 +78,7 @@
     <None Include="Shaders\colorVS.hlsl">
       <Filter>Shader Files</Filter>
     </None>
+    <None Include="Shaders\TextureVS.hlsl" />
+    <None Include="Shaders\TexturePS.hlsl" />
   </ItemGroup>
 </Project>
