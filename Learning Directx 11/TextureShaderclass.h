@@ -44,7 +44,7 @@ private:
 	ID3D11PixelShader* m_pixelShader;
 	ID3D11InputLayout* m_layout;
 	ID3D11Buffer* m_matrixBuffer;
-	ID3D11SamplerState* m_samplerState;s
+	ID3D11SamplerState* m_samplerState;
 };
 
 #endif // !_TEXTURESHADERCLASS_H_
