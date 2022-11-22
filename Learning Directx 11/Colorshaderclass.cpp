@@ -24,13 +24,13 @@ bool Colorshaderclass::Initialize(ID3D11Device* device, HWND hwnd)
 	int error;
 
 	//Set filenmaes
-	error = wcscpy_s(vsFilename, 128, L"colorVS.hlsl");
+	error = wcscpy_s(vsFilename, 128, L"Shaders/colorVS.hlsl");
 	if (error != 0)
 	{
 		return false;
 	}
 
-	error = wcscpy_s(psFilename, 128, L"colorPS.hlsl");
+	error = wcscpy_s(psFilename, 128, L"Shaders/colorPS.hlsl");
 	if (error != 0)
 	{
 		return false;

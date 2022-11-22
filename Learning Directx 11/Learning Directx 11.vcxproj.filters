@@ -67,16 +67,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\colorPS.hlsl">
-      <Filter>Shader Files</Filter>
-    </None>
-    <None Include="Shaders\colorVS.hlsl">
-      <Filter>Shader Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="Data\stone.tga">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\colorVS.hlsl" />
+    <FxCompile Include="Shaders\colorPS.hlsl" />
   </ItemGroup>
 </Project>
