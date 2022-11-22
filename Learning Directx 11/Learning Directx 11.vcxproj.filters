@@ -72,11 +72,11 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="Shaders\colorPS.hlsl">
+    <None Include="Shaders\colorPS.hlsl">
       <Filter>Shader Files</Filter>
-    </FxCompile>
-    <FxCompile Include="Shaders\colorVS.hlsl">
+    </None>
+    <None Include="Shaders\colorVS.hlsl">
       <Filter>Shader Files</Filter>
-    </FxCompile>
+    </None>
   </ItemGroup>
 </Project>
