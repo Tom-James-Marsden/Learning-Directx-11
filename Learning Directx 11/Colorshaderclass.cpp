@@ -225,7 +225,7 @@ void Colorshaderclass::OutputShaderErrorMessage(ID3DBlob* errorMessage, HWND hwn
 	ofstream fout;
 
 	//Get a pointer to the error message text buffer
-	compileErrors = (char*)(errorMessage->GetBufferPointer);
+	compileErrors = (char*)(errorMessage->GetBufferPointer());
 
 	//Get length of the message
 	bufferSize = errorMessage->GetBufferSize();
