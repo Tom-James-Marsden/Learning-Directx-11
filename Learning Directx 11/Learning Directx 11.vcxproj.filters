@@ -76,6 +76,10 @@
     <Image Include="Data\stone.tga">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="..\..\..\..\Downloads\katsbits-stonewall\wall_512_1_05.tga" />
+    <Image Include="Data\resized.tga" />
+    <Image Include="Data\working.tga" />
+    <Image Include="Data\kattex-3-stone2.tga" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\colorPS.hlsl">

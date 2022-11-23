@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Downloads\katsbits-stonewall\wall_512_1_05.tga" />
+    <Image Include="Data\kattex-3-stone2.tga" />
     <Image Include="Data\resized.tga" />
     <Image Include="Data\stone.tga" />
     <Image Include="Data\working.tga" />
