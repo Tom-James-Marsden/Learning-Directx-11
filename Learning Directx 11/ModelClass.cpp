@@ -87,12 +87,15 @@ bool ModelClass::InitializeBuffers(ID3D11Device* device)
 	// Load the vertex array with data.
 	vertices[0].position = XMFLOAT3(-1.0f, -1.0f, 0.0f);  // Bottom left.
 	vertices[0].texture = XMFLOAT2(0.0f, 1.0f);
+	vertices[0].nomral = XMFLOAT3(0.0f, 0.0f, -1.0f);
 
 	vertices[1].position = XMFLOAT3(0.0f, 1.0f, 0.0f);  // Top middle.
 	vertices[1].texture = XMFLOAT2(0.5f, 0.0f);
+	vertices[1].nomral = XMFLOAT3(0.0f, 0.0f, -1.0f);
 
 	vertices[2].position = XMFLOAT3(1.0f, -1.0f, 0.0f);  // Bottom right.
 	vertices[2].texture = XMFLOAT2(1.0f, 1.0f);
+	vertices[2].nomral = XMFLOAT3(0.0f, 0.0f, -1.0f);
 
 	// Load the index array with data.
 	indices[0] = 0;  // Bottom left.
@@ -191,6 +194,10 @@ bool ModelClass::LoadTexture(ID3D11Device* device, ID3D11DeviceContext* deviceCo
 
 	//Create and init texture obj
 	m_Texture = new	TextureClass;
+	if (!m_Texture)
+	{
+		return false;
+	}
 
 	result = m_Texture->Initialize(device, deviceContext, filename);
 	if (!result)

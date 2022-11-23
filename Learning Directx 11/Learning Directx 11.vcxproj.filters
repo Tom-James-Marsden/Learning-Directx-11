@@ -33,7 +33,7 @@
     <ClCompile Include="D3DClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TextureShaderclass.cpp">
+    <ClCompile Include="LightShaderclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ModelClass.cpp">
@@ -43,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TextureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +62,7 @@
     <ClInclude Include="D3DClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TextureShaderclass.h">
+    <ClInclude Include="LightShaderclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ModelClass.h">
@@ -71,15 +74,9 @@
     <ClInclude Include="TextureClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Data\stone.tga">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Downloads\katsbits-stonewall\wall_512_1_05.tga" />
-    <Image Include="Data\resized.tga" />
-    <Image Include="Data\working.tga" />
-    <Image Include="Data\kattex-3-stone2.tga" />
+    <ClInclude Include="LightClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\colorPS.hlsl">
@@ -88,7 +85,22 @@
     <None Include="Shaders\colorVS.hlsl">
       <Filter>Shader Files</Filter>
     </None>
-    <None Include="Shaders\TextureVS.hlsl" />
-    <None Include="Shaders\TexturePS.hlsl" />
+    <None Include="Shaders\TexturePS.hlsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\TextureVS.hlsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\LightPS.hlsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\LightVS.hlsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\kattex-3-stone2.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
