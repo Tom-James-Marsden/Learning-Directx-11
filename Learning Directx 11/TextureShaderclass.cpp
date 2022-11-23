@@ -31,7 +31,7 @@ bool TextureShaderclass::Initialize(ID3D11Device* device, HWND hwnd)
 		return false;
 	}
 
-	error = wcscpy_s(psFilename, 128, L"Shaders/Texture.hlsl");
+	error = wcscpy_s(psFilename, 128, L"Shaders/TexturePS.hlsl");
 	if (error != 0)
 	{
 		return false;

@@ -40,7 +40,10 @@
     <ClInclude Include="SystemClass.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\katsbits-stonewall\wall_512_1_05.tga" />
+    <Image Include="Data\resized.tga" />
     <Image Include="Data\stone.tga" />
+    <Image Include="Data\working.tga" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\colorVS.hlsl">
